@@ -24,7 +24,7 @@ asdf_data_dir() {
   elif [ "${ASDF_DIR-}" ]; then
     data_dir="$ASDF_DIR"
   else
-    data_dir="$HOME/.asdf"
+    data_dir="/home/luiz/.asdf"
   fi
 
   printf "%s\n" "$data_dir"
